@@ -2,10 +2,11 @@
 <Context>
 	<Resource name="jdbc/UserPlatformDB"
               type="javax.sql.DataSource"  auth="Container"
-              description="Derby database for User Platform"
+              description="H2 database for User Platform"
               maxActive="100" maxIdle="30" maxWait="10000"
-              username="" password="" 
-              driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
-              url="jdbc:derby:Databases/UserPlatformDB"/>
+              username="root" password="Jxi1Oxc92qSj"
+              driverClassName="org.h2.Driver"
+			  url="jdbc:h2:file:${project.basedir}/target/UserPlatformDB"/>
+<!--              url="jdbc:h2:Databases/UserPlatformDB"-->
 
 </Context>

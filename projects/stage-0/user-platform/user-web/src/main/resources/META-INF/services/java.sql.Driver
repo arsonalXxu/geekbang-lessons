@@ -1,1 +1,2 @@
-org.apache.derby.jdbc.EmbeddedDriver
+#org.apache.derby.jdbc.EmbeddedDriver
+org.h2.Driver
